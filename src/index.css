@@ -1,13 +1,82 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-card-image .card.image-full:before {
+  border-radius: 0.5rem;
+  opacity: 0.45;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+.badge-bug {
+  background-color: #729f3f;
+}
+
+.badge-dragon {
+  background: linear-gradient(180deg, #53a4cf 50%, #f16e57 50%);
+}
+
+.badge-fairy {
+  background-color: #fdb9e9;
+}
+
+.badge-fire {
+  background-color: #fd7d24;
+}
+
+.badge-ghost {
+  background-color: #7b62a3;
+}
+
+.badge-ground {
+  background: linear-gradient(180deg, #f7de3f 50%, #ab9842 50%);
+}
+
+
+.badge-normal {
+  background-color: #a4acaf;
+}
+
+.badge-psychic {
+  background-color: #f366b9;
+}
+
+.badge-steel {
+  background-color: #9eb7b8;
+}
+
+.badge-dark {
+  background-color: #707070;
+}
+
+.badge-electric {
+  background-color: #eed535;
+}
+
+.badge-fighting {
+  background-color: #d56723;
+}
+
+.badge-flying {
+  background: linear-gradient(180deg, #3dc7ef 50%, #bdb9b8 50%);
+}
+
+.badge-grass {
+  background-color: #9bcc50;
+}
+
+.badge-ice {
+  background-color: #51c4e7;
+}
+
+.badge-prison {
+  background-color: #b97fc9;
+}
+
+.badge-rock {
+  background-color: #a38c21;
+}
+
+.badge-water {
+  background-color: #4592c4;
 }
